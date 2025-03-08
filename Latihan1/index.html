@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BukuIlmu - Toko Buku Online</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        /* Hero Section Background */
+        .hero {
+            background: url('hero.jpg') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        /* Hover Effect */
+        .btn:hover {
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+        .book-item img:hover {
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="bi bi-book"></i> BukuIlmu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Kategori</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero text-center">
+        <h1>Selamat Datang di BukuIlmu</h1>
+    </div>
+
+    <!-- Kategori Buku -->
+    <section class="container my-5">
+        <h2 class="text-center">Kategori Buku</h2>
+        <div class="row text-center mt-4">
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h3>📚 Novel</h3>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h3>📚 Komik</h3>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <h3>📚 Filosofi</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buku Unggulan -->
+    <section class="container my-5">
+        <h2 class="text-center">Buku Unggulan</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <img src="buku1.jpg" class="card-img-top" alt="Buku 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">The Art of Being Alone </h5>
+                        <p class="card-text">Buku ini membahas konsep kesendirian sebagai sesuatu yang harus diterima dan dihargai, bukan ditakuti. Banyak orang merasa kesepian saat sendirian, tetapi penulis berusaha menunjukkan bahwa ada perbedaan besar antara kesepian (loneliness) dan kesendirian yang dinikmati (solitude).
+
+                            Tema utama dalam buku ini:
+                            Bagaimana memahami dan menerima kesendirian.
+                            Cara mengubah rasa kesepian menjadi peluang untuk pertumbuhan pribadi.
+                            Membangun hubungan yang lebih sehat dengan diri sendiri.
+                            Menggunakan waktu sendiri untuk refleksi dan menemukan makna dalam hidup.
+
+                            Buku ini cocok bagi mereka yang sedang mengalami kesepian, berjuang dengan hubungan sosial, atau ingin lebih menikmati momen bersama diri sendiri. Dengan gaya tulisan yang reflektif dan inspiratif, buku ini bisa menjadi panduan bagi mereka yang ingin menemukan kedamaian dalam kesendirian
+                            </p>
+                        <a href="https://shopee.co.id/" target="_blank" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <img src="buku2.jpg" class="card-img-top" alt="Buku 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Yang Telah Lama Pergi </h5>
+                        <p class="card-text">Tere Liye dikenal sebagai salah satu penulis novel terkenal di Indonesia yang sering mengangkat tema kehidupan, petualangan, cinta, dan filosofi mendalam. Yang Telah Lama Pergi adalah salah satu novelnya yang tampaknya memiliki unsur petualangan, yang terlihat dari sampul buku yang menyerupai peta kuno.
+
+                            Tema utama dalam buku ini:
+                            Perjalanan fisik dan emosional dalam mencari sesuatu yang hilang.
+                            Nostalgia akan masa lalu dan orang-orang yang telah pergi.
+                            Filosofi kehidupan tentang merelakan, menemukan diri sendiri, dan memaknai perjalanan hidup.
+
+                            Sampulnya yang bergaya peta menimbulkan kesan bahwa buku ini mungkin mengandung unsur perjalanan atau pencarian yang penuh dengan tantangan. Tere Liye seringkali menulis dengan gaya yang sederhana tetapi penuh makna, menjadikan buku ini menarik bagi pembaca yang suka kisah dengan pesan mendalam.</p>
+                        <a href="https://shopee.co.id/" target="_blank" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-3">
+                    <img src="buku3.jpg" class="card-img-top" alt="Buku 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">21 Wasiat Steve Jobs</h5>
+                        <p class="card-text">Buku ini mengulas prinsip-prinsip dan filosofi Steve Jobs, pendiri Apple, yang menjadikannya salah satu tokoh bisnis dan teknologi paling sukses di dunia. Steve Jobs dikenal sebagai pemimpin visioner yang memiliki cara berpikir unik dalam membangun produk dan perusahaan yang luar biasa.
+
+                            Isi utama dalam buku ini:
+                            21 prinsip yang dipegang oleh Steve Jobs dalam hidup dan bisnis.
+                            Bagaimana cara berpikir kreatif dan inovatif dalam dunia kerja.
+                            Strategi untuk mencapai kesuksesan dalam karier dan bisnis.
+                            Filosofi kepemimpinan dan bagaimana Steve Jobs menginspirasi banyak orang.
+
+                            Buku ini cocok bagi mereka yang tertarik dengan dunia bisnis, inovasi, dan kepemimpinan. Dengan memahami prinsip-prinsip yang diterapkan oleh Steve Jobs, pembaca bisa mendapatkan wawasan tentang cara berpikir yang berbeda untuk mencapai kesuksesan.
+                            </p>
+                        <a href="https://shopee.co.id/" target="_blank" class="btn btn-primary">Beli Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center bg-dark text-white py-3">
+        <p>&copy; 2025 BukuKita - Toko Buku Online. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
