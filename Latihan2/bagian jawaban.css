@@ -1,0 +1,50 @@
+@keyframes backgroundAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+body {
+    background: linear-gradient(45deg, #18cc4e, #185d13, #ffcc00, #ff6600);
+    background-size: 400% 400%;
+    animation: backgroundAnimation 10s infinite ease-in-out;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.card {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.5);
+}
+.btn-outline-primary {
+    transition: 0.3s;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    color: #fafafa;
+}
+.btn-outline-primary:hover {
+    background-color: #fe1707;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 0 15px #ffcc00;
+}
+.feedback {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
